@@ -4,6 +4,13 @@ int main()
 {
  int x;
  scanf("%d ",&x);
- printf("%d ",x);
+ 
+ for(int i=0;i<x;i++)
+    {
+     for(int j=0;j<i;j++)
+         printf("X");
+     printf("\n");
+    }
+ 
  return 0;
 }
