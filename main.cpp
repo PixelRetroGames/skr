@@ -1,9 +1,11 @@
 #include <cstdio>
+#include "util.h"
 
 int main()
 {
  int x;
  scanf("%d ",&x);
+ printf("%d\n",pow(2,x));
  
  for(int i=0;i<x;i++)
     {
