@@ -4,6 +4,7 @@ int main()
 {
  int x;
  scanf("%d ",&x);
- printf("%d ",x);
+ x = x * 3;
+ printf("%d\n", x);
  return 0;
 }
