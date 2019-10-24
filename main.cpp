@@ -37,6 +37,13 @@ int maxnumber(int a, int b) {
 	return b;
 }
 
+int divide(int a, int b) {
+	if(a > b) {
+		return a/b;
+	}
+	return b/a;
+}
+
 int main()
 {
  int x;
