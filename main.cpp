@@ -10,6 +10,13 @@ int dif(int a, int b) {
 int impartit(int a, int b) {
 	return a/b;
 }
+int modulo(int n) {
+	if(a < 0) {
+		return a * (-1);
+	}
+	return a;
+}
+
 int main()
 {
  int x;
