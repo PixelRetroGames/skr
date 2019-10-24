@@ -3,6 +3,9 @@
 int sum(int a, int b) {
 	return a+b;
 }
+int dif(int a, int b) {
+	return a-b;
+}
 int main()
 {
  int x;
@@ -11,5 +14,7 @@ int main()
  printf("%d\n", x);
  int a = sum (4,5);
  printf("%d\n", a);
+ int b = dif(10, 3);
+ printf("%d\n", b);
  return 0;
 }
