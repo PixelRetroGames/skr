@@ -18,7 +18,7 @@ int modulo(int n) {
 	return a;
 }
 
-int sort_vect(int n, int *p) {
+void sort_vect(int n, int *p) {
 	for(int i = 0; i < n; i++) {
 		for(int j = i+1; j < n; j++) {
 			if(p[i] < p[j]) {
@@ -28,6 +28,13 @@ int sort_vect(int n, int *p) {
 			}
 		}
 	}
+}
+
+int maxnumber(int a, int b) {
+	if(a > b) {
+		return a;
+	}
+	return b;
 }
 
 int main()
